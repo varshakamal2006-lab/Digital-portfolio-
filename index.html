@@ -4,73 +4,147 @@
 
 <head>
 
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Varsha's Digital Portfolio</title>
+  <title>Varsha | Digital Portfolio</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+  <!-- Header -->
+
   <header>
-
-    <h1>Varsha K</h1>
-
-    <p>2nd Year BCA Student at MMES Women's Arts and Science College</p>
 
     <nav>
 
-      <a href="#about">About Me</a>
+      <h1 class="logo">Varsha</h1>
 
-      <a href="#projects">Projects</a>
+      <ul>
 
-      <a href="#contact">Contact</a>
+        <li><a href="#about">About Me</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
 
     </nav>
 
   </header>
 
+  <!-- Hero Section -->
+
+  <section class="hero">
+
+    <h2>Hello, I'm <span>Varsha</span></h2>
+
+    <p>2nd BCA Student at M.M.E.S Women’s Arts and Science College</p>
+
+    <a href="#contact" class="btn">Contact Me</a>
+
+  </section>
+
+  <!-- About Me -->
+
   <section id="about">
 
     <h2>About Me</h2>
 
-    <p>Hello! I'm Varsha, a passionate student exploring the world of web development. I love building interactive websites and learning new technologies.</p>
+    <p>
+
+      I am <b>Varsha</b>, currently pursuing <b>2nd year BCA</b> at 
+
+      <b>M.M.E.S Women’s Arts and Science College, Thiruvalluvar University</b>.
+
+      Passionate about technology and programming, I enjoy creating
+
+      web-based applications and digital solutions.
+
+    </p>
 
   </section>
+
+  <!-- Skills -->
+
+  <section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-card">HTML</div>
+
+      <div class="skill-card">CSS</div>
+
+      <div class="skill-card">JavaScript</div>
+
+      <div class="skill-card">GitHub</div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
 
   <section id="projects">
 
     <h2>Projects</h2>
 
-    <div class="project-card">
+    <div class="projects-container">
 
-      <h3>Task Management System</h3>
+      <div class="project-card">
 
-      <p>A web app to manage daily tasks efficiently with user authentication and task tracking.</p>
+        <h3>Digital Portfolio</h3>
+
+        <p>
+
+          A web-based platform to showcase academic achievements, projects, and skills effectively.
+
+        </p>
+
+      </div>
+
+      <div class="project-card">
+
+        <h3>Future Projects</h3>
+
+        <p>
+
+          I aim to develop more applications using HTML, CSS, and JavaScript that solve real-world problems.
+
+        </p>
+
+      </div>
 
     </div>
 
-    <!-- Add more projects here -->
-
   </section>
+
+  <!-- Contact -->
 
   <section id="contact">
 
     <h2>Contact Me</h2>
 
+    <p>Email: <a href="mailto:varsha@gmail.com">varsha@gmail.com</a></p>
+
     <form id="contactForm">
 
-      <input type="text" placeholder="Your Name" required />
+      <input type="text" placeholder="Your Name" required>
 
-      <input type="email" placeholder="Your Email" required />
+      <input type="email" placeholder="Your Email" required>
 
       <textarea placeholder="Your Message" required></textarea>
 
-      <button type="submit">Send</button>
+      <button type="submit" class="btn">Send</button>
 
     </form>
 
@@ -78,7 +152,7 @@
 
   <footer>
 
-    <p>&copy; 2025 Varsha K</p>
+    <p>© 2025 Varsha | Digital Portfolio</p>
 
   </footer>
 

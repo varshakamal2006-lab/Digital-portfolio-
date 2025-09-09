@@ -1,0 +1,303 @@
+/* General */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+
+  line-height: 1.6;
+
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+
+  color: white;
+
+}
+
+/* Navbar */
+
+header {
+
+  background: rgba(0, 0, 0, 0.6);
+
+  padding: 15px;
+
+  position: fixed;
+
+  width: 100%;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+}
+
+nav ul li {
+
+  margin: 0 15px;
+
+}
+
+nav ul li a {
+
+  text-decoration: none;
+
+  color: white;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+nav ul li a:hover {
+
+  color: yellow;
+
+}
+
+.logo {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+}
+
+/* Hero */
+
+.hero {
+
+  height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+}
+
+.hero h2 span {
+
+  color: yellow;
+
+  animation: blink 1.5s infinite;
+
+}
+
+@keyframes blink {
+
+  0%, 100% { color: yellow; }
+
+  50% { color: white; }
+
+}
+
+.btn {
+
+  display: inline-block;
+
+  margin-top: 20px;
+
+  padding: 10px 20px;
+
+  background: yellow;
+
+  color: black;
+
+  font-weight: bold;
+
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  transition: transform 0.3s;
+
+}
+
+.btn:hover {
+
+  transform: scale(1.1);
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 80px 20px;
+
+  text-align: center;
+
+}
+
+h2 {
+
+  font-size: 28px;
+
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+
+}
+
+/* Skills */
+
+.skills-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  flex-wrap: wrap;
+
+}
+
+.skill-card {
+
+  background: rgba(255,255,255,0.2);
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+
+  transition: transform 0.3s;
+
+}
+
+.skill-card:hover {
+
+  transform: translateY(-10px);
+
+}
+
+/* Projects */
+
+.projects-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+}
+
+.project-card {
+
+  background: rgba(0,0,0,0.4);
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  width: 250px;
+
+  transition: transform 0.3s;
+
+}
+
+.project-card:hover {
+
+  transform: translateY(-10px);
+
+}
+
+/* Contact */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+input, textarea {
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 5px;
+
+}
+
+button {
+
+  background: yellow;
+
+  color: black;
+
+  font-weight: bold;
+
+  padding: 10px;
+
+  border: none;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+button:hover {
+
+  background: white;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: rgba(0, 0, 0, 0.6);
+
+  padding: 10px;
+
+  text-align: center;
+
+}
